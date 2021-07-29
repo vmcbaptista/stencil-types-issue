@@ -5,7 +5,7 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
-import { V4Options } from "uuid";
+import { V4Options } from "../node_modules/@types/uuid/index.d";
 export namespace Components {
     interface MyComponent {
         "options": V4Options;
